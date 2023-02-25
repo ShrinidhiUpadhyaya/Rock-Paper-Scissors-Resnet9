@@ -1,12 +1,10 @@
 # Rock-Paper-Scissors-Resnet9
 ---
-# RPS Classification Web App
 ## Requirements
 Install all the necessary python packages.
-## To run
-```python
+## To run the web app
+```
 $ streamlit run app.py
 ```
-## Mentions
-Streamlit app based on a similar app which can be found here: https://github.com/terryz1/Image_Classification_App </br> </br>
-## Examples
+## References
+More Information about streamlit can be found here: https://docs.streamlit.io/
