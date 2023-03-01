@@ -100,7 +100,7 @@ file_up = st.file_uploader("Upload a Gesture", type=["png","jpg","jpeg"])
 
 if file_up is not None:
     image = Image.open(file_up)
-    st.image(image, caption='Please wait for a few seconds...', use_column_width=True)
+    st.image(image, caption='Please wait for a few seconds...')
     st.write("")
     
     image_tensor = convert_imageTo_tensor(image)
